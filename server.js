@@ -1,4 +1,4 @@
-var main = require('./src/main')    
+var main = require('./main')    
 
 var port = process.env.PORT || 8080  // establecemos nuestro puerto
 
