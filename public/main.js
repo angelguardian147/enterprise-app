@@ -9,7 +9,7 @@ app.use("/static", express.static("public"));
 
 // RUTA PRINCIPAL
 app.get('/', function(req, res) {
-  res.status(200).sendFile(__dirname + "/mouse2.html");   
+  res.status(200).sendFile(__dirname + "/index.html");   
 })
 
 
